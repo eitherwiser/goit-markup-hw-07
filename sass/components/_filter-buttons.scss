@@ -19,7 +19,7 @@
     border-style: hidden;
     border-radius: 4px;
     color: var(--main-color);
-    background-color: var(--bg-gray-color);
+    background-color: var(--bg-light2-color);
     cursor: pointer;
     transition: color var(--main-animation),
       background-color var(--main-animation), box-shadow var(--main-animation);
@@ -31,6 +31,6 @@
   &__btn:active {
     color: var(--main-light-color);
     background-color: var(--accent-color);
-    box-shadow: var(--filter__btn-shadow);
+    box-shadow: var(--filter-btn-shadow);
   }
 }

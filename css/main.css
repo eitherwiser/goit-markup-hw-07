@@ -53,11 +53,11 @@ li {
   --overlay-card-color: rgba(33, 150, 243, 0.9);
   --dark-color: #000000;
   --main-color: #212121;
-  --main-gray-color: #757575;
+  --main-text-wan-color: #757575;
   --main-light-color: #ffffff;
   --bg-light-color: #ffffff;
   --bg-dark-color: #2f303a;
-  --bg-gray-color: #f5f4fa;
+  --bg-light2-color: #f5f4fa;
   --header-border-color: #ececec;
   --card-border-color: #eeeeee;
   --icon-color: #afb1b8;
@@ -306,7 +306,7 @@ li {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--main-gray-color);
+  color: var(--main-text-wan-color);
 }
 
 .submit__input {
@@ -417,7 +417,7 @@ li {
   border-style: hidden;
   border-radius: 4px;
   color: var(--main-color);
-  background-color: var(--bg-gray-color);
+  background-color: var(--bg-light2-color);
   cursor: pointer;
   transition: color var(--main-animation), background-color var(--main-animation), box-shadow var(--main-animation);
 }
@@ -425,7 +425,7 @@ li {
 .filter__btn.current, .filter__btn:hover, .filter__btn:focus, .filter__btn:active {
   color: var(--main-light-color);
   background-color: var(--accent-color);
-  box-shadow: var(--filter__btn-shadow);
+  box-shadow: var(--filter-btn-shadow);
 }
 
 header {
@@ -500,7 +500,7 @@ header .logo {
   padding-top: 32px;
   padding-bottom: 32px;
   text-decoration: none;
-  color: var(--main-gray-color);
+  color: var(--main-text-wan-color);
   transition: color var(--main-animation);
 }
 
@@ -608,7 +608,7 @@ header .logo {
   height: 120px;
   align-items: center;
   justify-content: center;
-  background-color: var(--bg-gray-color);
+  background-color: var(--bg-light2-color);
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -629,7 +629,7 @@ header .logo {
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-  color: var(--main-gray-color);
+  color: var(--main-text-wan-color);
 }
 
 .specification {
@@ -662,7 +662,7 @@ header .logo {
 }
 
 .team {
-  background-color: var(--bg-gray-color);
+  background-color: var(--bg-light2-color);
 }
 
 .team-list {
@@ -697,7 +697,7 @@ header .logo {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--main-gray-color);
+  color: var(--main-text-wan-color);
   margin-bottom: 16px;
 }
 
@@ -809,6 +809,6 @@ header .logo {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  color: var(--main-gray-color);
+  color: var(--main-text-wan-color);
 }
 /*# sourceMappingURL=main.css.map */
